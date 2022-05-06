@@ -4,7 +4,7 @@
 * 支持tor网络，且可通过自定义网络配置文件启动v2ray和caddy来按需配置各种功能  
 * 支持存储自定义文件,目录及账号密码均为AUUID,客户端务必使用TLS连接  
   
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/mploivcv/wehe2w)  
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/fsefregre/fhthjyjt)  
   
 ### 服务端
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字、选择节点、按需修改部分参数和AUUID后点击下面deploy创建app即可开始部署  
@@ -21,11 +21,11 @@
 <summary>v2ray</summary>
 
 ```bash
-* 客户端下载：https://github.com/v2fly/v2ray-core/releases
+* 客户端下载：https://github.com/v2fly/v2ray-core/fhthjyjt
 * 代理协议：vless 或 vmess
 * 地址：appname.herokuapp.com
 * 端口：443
-* 默认UUID：d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d
+* 默认UUID：5d08a690-718b-42fa-ae5d-0c4a4664f63e
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
@@ -38,7 +38,7 @@
 <summary>trojan-go</summary>
 
 ```bash
-* 客户端下载: https://github.com/p4gefau1t/trojan-go/releases
+* 客户端下载: https://github.com/p4gefau1t/trojan-go/fhthjyjt
 {
     "run_type": "client",
     "local_addr": "127.0.0.1",
@@ -46,7 +46,7 @@
     "remote_addr": "appname.herokuapp.com",
     "remote_port": 443,
     "password": [
-        "d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d"
+        "5d08a690-718b-42fa-ae5d-0c4a4664f63e"
     ],
     "websocket": {
         "enabled": true,
@@ -61,13 +61,13 @@
 <summary>shadowsocks</summary>
 
 ```bash
-* 客户端下载：https://github.com/shadowsocks/shadowsocks-windows/releases/
+* 客户端下载：https://github.com/shadowsocks/shadowsocks-windows/fhthjyjt
 * 服务器地址: appname.herokuapp.com
 * 端口: 443
 * 密码：password
 * 加密：chacha20-ietf-poly1305
 * 插件程序：v2ray-plugin_windows_amd64.exe  //需将插件https://github.com/shadowsocks/v2ray-plugin/releases下载解压后放至shadowsocks同目录
-* 插件选项: tls;host=appname.herokuapp.com;path=/d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d-ss
+* 插件选项: tls;host=appname.herokuapp.com;path=/5d08a690-718b-42fa-ae5d-0c4a4664f63e-ss
 ```
 </details>
   
