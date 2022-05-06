@@ -1,5 +1,5 @@
 {
-    "name": "wehe2w",
+    "name": "egrgerf",
     "description": "v2ray websocket proxy on heroku",
     "keywords": ["v2ray vmess vless trojan shadowsocks socks tor"],
     "env": {
@@ -9,7 +9,7 @@
         },
         "AUUID": {
             "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d"
+            "value": "5d08a690-718b-42fa-ae5d-0c4a4664f63e"
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/hulunber/hr/blob/master/etc/CADDYIndexPage.md",
@@ -32,7 +32,7 @@
             "value": "https://raw.githubusercontent.com/mploivcv/wehe2w/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/mploivcv/wehe2w",
-    "repository": "https://github.com/mploivcv/wehe2w",
+    "website": "https://github.com/fsefregre/",
+    "repository": "https://github.com/fsefregre/fhthjyjt",
     "stack": "container"
 }
